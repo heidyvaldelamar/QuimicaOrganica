@@ -56,3 +56,27 @@
 }
 
 .minutes {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.seconds {
+    stroke: white;
+    stroke-width: 0.7px;
+}
+
+/* Transición suave para las manecillas */
+.transition {
+    transition: transform 1s ease-in-out;
+}
+
+#tipos{
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 50px;
+    margin-top: 50px ;
+    margin-left: 43.5%;
+    margin-right: 40%;
+    width: 250px;
+}
