@@ -34,13 +34,3 @@ function calculateSeconds() {
       calculateSeconds();
     }, 1000);
 })();
-
-function calculateLines() {
-    const lines = document.querySelectorAll(".line");
-    const numberLines = lines.length;
-    for (let i = 0; i < numberLines; i++) {
-      const line = lines[i];
-      const angle = linearMap(i, 0, numberLines, 0, 360);
-      line.style.transform = `rotate(${angle}deg)`;
-    }
-  }
